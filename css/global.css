@@ -3,10 +3,23 @@
     font-family: "微软雅黑";
     font-size: 20px;
 }
-/* 用JS去写ddddd ssss*/
-.container{
-    padding: 0rem 0.8rem;
+
+/*lgw*/
+
+<<<<<<< HEAD
+body,h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin: 0;
+    padding: 0;
 }
+/* 用JS去写 */
+=======
+/* 用JS去写111 */
+>>>>>>> 8bbfc48baba90a90c11677837bbd8611f5ce6804
+.container{
+    padding: 0rem 0.5rem;
+    position: relative;
+}
+
 
 p{
     font-size: 0.6rem;
@@ -44,3 +57,31 @@ ul{
 .text-red{
     color: #e93a57;
 }
+
+/* 标题 */
+.title p{
+    font-size: 1rem;
+    position: relative;
+}
+.title p .left,.title p .right{
+   content: "";
+    display: block;
+    width: 1.5rem;
+    height: 0.1rem;
+    background: #464445;
+    position: absolute;
+    top: 1.3rem; 
+}
+.title p .left{
+    left: 4.5rem;
+}
+.title p .right{
+    right: 4.5rem;
+    
+}
+.title span{
+    font-size: 0.7rem;
+    margin-top: -0.3rem;
+    display: block;
+}
+/*end*/
